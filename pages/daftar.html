@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>valentine</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Valen</span>tine</a>
+        <nav>
+            <div class="navbar"></div>
+            <a href="/">Home</a>
+            <a href="/valentine">Valentine</a>
+            <a class="active" href="/daftar">Daftar</a>
+            <form action="/" method="GET">
+                <input type="text" name="keyword" placeholder="Cari disini ...">
+                <button type="submit">Cari</button>
+            </form>
+            <a href="/login">Login</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="table" >
+        <form action="/daftar" method="GET">
+            <table class="table" >
+                <h2 align="center">DAFTAR</h2>
+
+                        <tr>
+                            <td>Nama Depan</td>
+                            <td>:</td>
+                            <td><input type="text" class="formInput" name="namadpn"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Nama Belakang</td>
+                            <td>:</td>
+                            <td><input type="text" class="formInput" name="namablk"></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td><input type="text" class="formInput" name="jk"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>E-mail</td>
+                            <td>:</td>
+                            <td><input type="email" class="formInput" name="email"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>No Hp</td>
+                            <td>:</td>
+                            <td><input type="number" class="formInput" name="hp"></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                        <td><input type="submit" class="submit" name="submit" value="Simpan"/></td>
+                        </tr>
+
+                </table>
+            </form>
+    </main>
+</body>
+</html>
+
